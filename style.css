@@ -1,0 +1,68 @@
+.nav-bar{
+    color: white;
+    background-color: rgb(32, 112, 112);
+}
+.Toggle{
+    background-color: rgb(32, 112, 112);
+    color: white;
+}
+header{
+    background: url(./assets/images/watch.img) center / cover no-repeat;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+    position: relative;
+}
+header h1,p{
+    position: relative;
+    z-index: 1;
+}
+header h1{
+    font-size: 39px;
+}
+header p{
+    font-size: 20px;
+}
+.heading h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border: 1px solid rgb(32, 112, 112);
+}
+.testimonials h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.testimonials .container{
+    max-width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.testimonials .container .card-review{
+    height: 175px;
+    border-radius: 10px;
+    border: 1px solid rgb(32, 112, 112);
+    padding: 15px;
+}
+.testimonials .container img{
+    width: 60px;
+}
+footer{
+    max-width: 1000px;
+    height: 50px;
+    background-color: rgb(32, 112, 112);
+    color: white;
+    padding: 16px;
+}
